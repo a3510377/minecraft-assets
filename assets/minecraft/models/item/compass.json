@@ -1,0 +1,6 @@
+{
+    "parent": "builtin/compass",
+    "textures": {
+        "layer0": "items/compass"
+    }
+}

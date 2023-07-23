@@ -1,0 +1,8 @@
+{
+    "parent": "block/wooden_fence_inventory",
+    "display": {
+        "gui": {
+            "rotation": [ 0, 90, 0 ]
+        }
+    }
+}
