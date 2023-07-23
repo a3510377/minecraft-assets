@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "wooden_button",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_button"
+  }
+}
