@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "block",
+    "item"
+  ],
+  "files": [
+    "piston_inventory.json"
+  ]
+}
