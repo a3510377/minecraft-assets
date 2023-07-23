@@ -1,0 +1,16 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "ladder3",
+    "useAmbientOcclusion": false,
+    "inventoryRender3D": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 0, 0, 0.8 ],
+            "to": [ 16, 16, 0.8 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "tint": 1.0,
+            "facing": "south",
+            "cull": false
+        }
+    ]
+}

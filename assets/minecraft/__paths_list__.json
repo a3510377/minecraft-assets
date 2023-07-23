@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "font",
+    "lang",
+    "models",
+    "shaders",
+    "texts",
+    "textures"
+  ],
+  "files": []
+}

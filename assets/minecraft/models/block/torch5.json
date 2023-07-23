@@ -1,0 +1,50 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "torch5",
+    "useAmbientOcclusion": false,
+    "inventoryRender3D": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 7, 0, 7 ],
+            "to": [ 9, 0, 9 ],
+            "uv": [ 7, 13, 9, 15, "down" ],
+            "facing": "down",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 7, 10, 7 ],
+            "to": [ 9, 10, 9 ],
+            "uv": [ 7, 6, 9, 8, "down" ],
+            "facing": "up",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 7, 0, 0 ],
+            "to": [ 7, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "west",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 9, 0, 0 ],
+            "to": [ 9, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "east",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 9 ],
+            "to": [ 16, 16, 9 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "south",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 7 ],
+            "to": [ 16, 16, 7 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "north",
+            "cull": false
+        }
+    ]
+}

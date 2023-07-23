@@ -1,0 +1,37 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "cocoa_age0_south",
+    "useAmbientOcclusion": false,
+    "inventoryRender3D": false,
+    "elements": [
+        {   "type": "cube",
+            "from": [ 6, 7, 11 ],
+            "to": [ 10, 12, 15 ],
+            "uv": [
+                [ 0, 0, 4, 4, "down" ],
+                [ 0, 0, 4, 4, "up" ],
+                [ 11, 4, 15, 9, "north" ],
+                [ 11, 4, 15, 9, "south" ],
+                [ 11, 4, 15, 9, "west" ],
+                [ 11, 4, 15, 9, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "plane",
+            "from": [ 8, 12, 12 ],
+            "to": [ 8, 16, 16 ],
+            "uv": [ 12, 0, 16, 4, "west" ],
+            "shade": 1.0,
+            "facing": "west",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 8, 12, 12 ],
+            "to": [ 8, 16, 16 ],
+            "uv": [ 16, 0, 12, 4, "east" ],
+            "shade": 1.0,
+            "facing": "east",
+            "cull": false
+        }
+    ]
+}

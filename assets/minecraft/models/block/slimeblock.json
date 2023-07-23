@@ -1,0 +1,34 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "slimeblock",
+    "elements": [
+        {   "type": "cube",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 0, 0, 16, 16, "down" ],
+                [ 0, 0, 16, 16, "up" ],
+                [ 0, 0, 16, 16, "north" ],
+                [ 0, 0, 16, 16, "south" ],
+                [ 0, 0, 16, 16, "west" ],
+                [ 0, 0, 16, 16, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 3, 3, 3 ],
+            "to": [ 13, 13, 13 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 3, 3, 13, 13, "down" ],
+                [ 3, 3, 13, 13, "up" ],
+                [ 3, 3, 13, 13, "north" ],
+                [ 3, 3, 13, 13, "south" ],
+                [ 3, 3, 13, 13, "west" ],
+                [ 3, 3, 13, 13, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        }
+    ]
+}
