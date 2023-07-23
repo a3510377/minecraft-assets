@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "icons",
+    "minecraft",
+    "realms"
+  ],
+  "files": [
+    "pack.mcmeta"
+  ]
+}
