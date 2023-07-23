@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "background"
+  ],
+  "files": [
+    "edition.png",
+    "minecraft.png",
+    "mojang.png"
+  ]
+}
