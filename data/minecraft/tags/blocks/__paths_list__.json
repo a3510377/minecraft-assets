@@ -1,0 +1,22 @@
+{
+  "directories": [],
+  "files": [
+    "anvil.json",
+    "banners.json",
+    "buttons.json",
+    "carpets.json",
+    "doors.json",
+    "enderman_holdable.json",
+    "flower_pots.json",
+    "logs.json",
+    "planks.json",
+    "saplings.json",
+    "stone_bricks.json",
+    "wooden_buttons.json",
+    "wooden_doors.json",
+    "wooden_pressure_plates.json",
+    "wooden_slabs.json",
+    "wooden_stairs.json",
+    "wool.json"
+  ]
+}
