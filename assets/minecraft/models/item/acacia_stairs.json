@@ -1,0 +1,8 @@
+{
+    "parent": "block/acacia_stairs",
+    "display": {
+        "gui": {
+            "rotation": [ 0, 180, 0 ]
+        }
+    }
+}
