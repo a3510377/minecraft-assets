@@ -1,0 +1,20 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "github_action_tick": "ts-node scripts/github_action.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.3",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.4.0",
+    "simple-git": "^3.19.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.0"
+  }
+}
