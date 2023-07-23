@@ -128,7 +128,8 @@ if (require.main == module) {
     console.log(allTags);
 
     let start = new Date();
-    for (const [version, info] of Object.entries(versions).reverse()) {
+    for (let [version, info] of Object.entries(versions).reverse()) {
+      version = version.replace(/ /, '-').toLowerCase();
       if (!['release', 'snapshot'].includes(info.type)) continue;
       if (allTags.includes(version)) continue;
       if (new Date().getTime() - start.getTime() > 1e3 * 60 * 2) break;
