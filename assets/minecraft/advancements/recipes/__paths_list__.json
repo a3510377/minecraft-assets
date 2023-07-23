@@ -1,0 +1,14 @@
+{
+  "directories": [
+    "brewing",
+    "buildingBlocks",
+    "combat",
+    "decorations",
+    "food",
+    "misc",
+    "redstone",
+    "tools",
+    "transportation"
+  ],
+  "files": []
+}
