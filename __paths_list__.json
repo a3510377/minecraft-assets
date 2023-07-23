@@ -1,0 +1,14 @@
+{
+  "directories": [
+    "assets",
+    "data"
+  ],
+  "files": [
+    "18w20b.json",
+    "18w20b.min.json",
+    "assets_index.json",
+    "assets_index.min.json",
+    "version.json",
+    "version.min.json"
+  ]
+}
