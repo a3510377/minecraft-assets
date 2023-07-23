@@ -1,0 +1,144 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change in the future!",
+    "name": "leaves",
+    "faces": [
+        {
+            "cullFacing": "down",
+            "shade": 0.5,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 0.0, 0.0, 1.0 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 1.0, 0.0, 0.0 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 1.0, 0.0, 1.0 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "cullFacing": "up",
+            "shade": 1.0,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 1.0, 1.0, 1.0 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 1.0, 1.0, 0.0 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.0, 1.0, 0.0 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.0, 1.0, 1.0 ],
+                    "texcoord": [ 0, 16 ]
+                }
+            ]
+        },
+        {
+            "cullFacing": "north",
+            "shade": 0.8,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 0.0, 1.0, 0.0 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 1.0, 1.0, 0.0 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 1.0, 0.0, 0.0 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "cullFacing": "south",
+            "shade": 0.8,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 0.0, 1.0, 1.0 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.0, 0.0, 1.0 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 1.0, 0.0, 1.0 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 1.0, 1.0, 1.0 ],
+                    "texcoord": [ 16, 0 ]
+                }
+            ]
+        },
+        {
+            "cullFacing": "west",
+            "shade": 0.6,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 0.0, 1.0, 1.0 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.0, 1.0, 0.0 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.0, 0.0, 1.0 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "cullFacing": "east",
+            "shade": 0.6,
+            "tint": true,
+            "vertices": [
+                {
+                    "position": [ 1.0, 0.0, 1.0 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 1.0, 0.0, 0.0 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 1.0, 1.0, 0.0 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 1.0, 1.0, 1.0 ],
+                    "texcoord": [ 0, 0 ]
+                }
+            ]
+        }
+    ]
+}

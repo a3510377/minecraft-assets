@@ -1,0 +1,132 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change in the future!",
+    "name": "missingno",
+    "faces": [
+        {
+            "shade": 0.5,
+            "vertices": [
+                {
+                    "position": [ 0.25, 0.25, 0.75 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.25, 0.25, 0.25 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.75, 0.25, 0.25 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.75, 0.25, 0.75 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "shade": 1.0,
+            "vertices": [
+                {
+                    "position": [ 0.75, 0.75, 0.75 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 0.75, 0.75, 0.25 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.25, 0.75, 0.25 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.25, 0.75, 0.75 ],
+                    "texcoord": [ 0, 16 ]
+                }
+            ]
+        },
+        {
+            "shade": 0.8,
+            "vertices": [
+                {
+                    "position": [ 0.25, 0.75, 0.25 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.75, 0.75, 0.25 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.75, 0.25, 0.25 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.25, 0.25, 0.25 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "shade": 0.8,
+            "vertices": [
+                {
+                    "position": [ 0.25, 0.75, 0.75 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.25, 0.25, 0.75 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.75, 0.25, 0.75 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 0.75, 0.75, 0.75 ],
+                    "texcoord": [ 16, 0 ]
+                }
+            ]
+        },
+        {
+            "shade": 0.6,
+            "vertices": [
+                {
+                    "position": [ 0.25, 0.75, 0.75 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.25, 0.75, 0.25 ],
+                    "texcoord": [ 0, 0 ]
+                },
+                {
+                    "position": [ 0.25, 0.25, 0.25 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.25, 0.25, 0.75 ],
+                    "texcoord": [ 16, 16 ]
+                }
+            ]
+        },
+        {
+            "shade": 0.6,
+            "vertices": [
+                {
+                    "position": [ 0.75, 0.25, 0.75 ],
+                    "texcoord": [ 0, 16 ]
+                },
+                {
+                    "position": [ 0.75, 0.25, 0.25 ],
+                    "texcoord": [ 16, 16 ]
+                },
+                {
+                    "position": [ 0.75, 0.75, 0.25 ],
+                    "texcoord": [ 16, 0 ]
+                },
+                {
+                    "position": [ 0.75, 0.75, 0.75 ],
+                    "texcoord": [ 0, 0 ]
+                }
+            ]
+        }
+    ]
+}
