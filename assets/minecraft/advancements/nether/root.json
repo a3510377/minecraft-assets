@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_wart"
+        },
+        "title": {
+            "translate": "advancements.nether.root.title"
+        },
+        "description": {
+            "translate": "advancements.nether.root.description"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+    },
+    "criteria": {
+        "entered_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_nether"
+            }
+        }
+    }
+}
