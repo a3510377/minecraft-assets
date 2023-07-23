@@ -56,6 +56,8 @@ export async function getVersions() {
   return result;
 }
 
-(async () => {
-  await getVersions();
-})();
+if (require.main == module) {
+  (async () => {
+    await getVersions();
+  })();
+}
