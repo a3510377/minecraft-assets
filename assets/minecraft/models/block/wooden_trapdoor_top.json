@@ -1,0 +1,7 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/trapdoor_top",
+    "textures": {
+        "texture": "blocks/trapdoor"
+    }
+}

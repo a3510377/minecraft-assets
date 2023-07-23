@@ -1,0 +1,8 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/pane_nse",
+    "textures": {
+        "edge": "blocks/glass_pane_top_cyan",
+        "pane": "blocks/glass_cyan"
+    }
+}

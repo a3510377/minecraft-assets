@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "none": { "model": "pink_pane_nsew" },
+        "n": { "model": "pink_pane_n" },
+        "e": { "model": "pink_pane_n", "y": 90 },
+        "s": { "model": "pink_pane_n", "y": 180 },
+        "w": { "model": "pink_pane_n", "y": 270 },
+        "ne": { "model": "pink_pane_ne" },
+        "es": { "model": "pink_pane_ne", "y": 90 },
+        "sw": { "model": "pink_pane_ne", "y": 180 },
+        "nw": { "model": "pink_pane_ne", "y": 270 },
+        "ns": { "model": "pink_pane_ns" },
+        "ew": { "model": "pink_pane_ns", "y": 90 },
+        "nse": { "model": "pink_pane_nse" },
+        "sew": { "model": "pink_pane_nse", "y": 90 },
+        "swn": { "model": "pink_pane_nse", "y": 180 },
+        "new": { "model": "pink_pane_nse", "y": 270 },
+        "nsew": { "model": "pink_pane_nsew" }
+    }
+}

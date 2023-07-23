@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "upright":  { "model": "birch_log" },
+        "side_n":   { "model": "birch_log_side" },
+        "side_e":   { "model": "birch_log_side", "y": 90 },
+        "all_bark": { "model": "birch_bark" }
+    }
+}

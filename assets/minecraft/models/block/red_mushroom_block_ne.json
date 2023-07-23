@@ -1,0 +1,13 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/cube",
+    "textures": {
+        "particle": "blocks/mushroom_block_inside",
+        "down": "blocks/mushroom_block_inside",
+        "up": "blocks/mushroom_block_skin_red",
+        "north": "blocks/mushroom_block_skin_red",
+        "east": "blocks/mushroom_block_skin_red",
+        "south": "blocks/mushroom_block_inside",
+        "west": "blocks/mushroom_block_inside"
+    }
+}

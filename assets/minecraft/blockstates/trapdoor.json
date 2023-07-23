@@ -1,0 +1,11 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "bottom": { "model": "wooden_trapdoor_bottom" },
+        "top":    { "model": "wooden_trapdoor_top" },
+        "open_n": { "model": "wooden_trapdoor_open" },
+        "open_s": { "model": "wooden_trapdoor_open", "y": 180 },
+        "open_w": { "model": "wooden_trapdoor_open", "y": 270 },
+        "open_e": { "model": "wooden_trapdoor_open", "y": 90 }
+    }
+}
