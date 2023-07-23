@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 8
+            },
+            "items": [
+                {
+                    "item": "minecraft:apple",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:coal",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:gold_nugget",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:stone_axe",
+                    "weight": 2
+                },
+                {
+                    "item": "minecraft:rotten_flesh",
+                    "weight": 10
+                },
+                {
+                    "item": "minecraft:emerald",
+                    "weight": 1
+                },
+                {
+                    "item": "minecraft:wheat",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "items": [
+                {
+                    "item": "minecraft:golden_apple",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

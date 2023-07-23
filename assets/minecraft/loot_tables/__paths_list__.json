@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "chests",
+    "entities"
+  ],
+  "files": [
+    "empty.json"
+  ]
+}
