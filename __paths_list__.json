@@ -1,0 +1,13 @@
+{
+  "directories": [
+    "assets"
+  ],
+  "files": [
+    "14w05a.json",
+    "14w05a.min.json",
+    "assets_index.json",
+    "assets_index.min.json",
+    "version.json",
+    "version.min.json"
+  ]
+}
