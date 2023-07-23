@@ -1,0 +1,15 @@
+{
+  "directories": [
+    "ambient",
+    "damage",
+    "fire",
+    "liquid",
+    "mob",
+    "note",
+    "portal",
+    "random",
+    "step",
+    "tile"
+  ],
+  "files": []
+}
