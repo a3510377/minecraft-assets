@@ -1,0 +1,63 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "anvil0",
+    "useAmbientOcclusion": false,
+    "elements": [
+        {   "type": "cube",
+            "from": [ 2, 0, 2 ],
+            "to": [ 14, 4, 14 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 2, 2, 14, 14, "down" ],
+                [ 2, 2, 14, 14, "up" ],
+                [ 2, 12, 14, 16, "north" ],
+                [ 2, 12, 14, 16, "south" ],
+                [ 2, 12, 14, 16, "west" ],
+                [ 2, 12, 14, 16, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 4, 4, 3 ],
+            "to": [ 12, 5, 13 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 4, 3, 12, 13, "down" ],
+                [ 4, 3, 12, 13, "up" ],
+                [ 4, 11, 12, 12, "north" ],
+                [ 4, 11, 12, 12, "south" ],
+                [ 3, 11, 13, 12, "west" ],
+                [ 3, 11, 13, 12, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 6, 5, 4 ],
+            "to": [ 10, 10, 12 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 6, 4, 10, 12, "down" ],
+                [ 6, 4, 10, 12, "up" ],
+                [ 6, 6, 10, 11, "north" ],
+                [ 6, 6, 10, 11, "south" ],
+                [ 4, 6, 12, 11, "west" ],
+                [ 4, 6, 12, 11, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 3, 10, 0 ],
+            "to": [ 13, 16, 16 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 3, 0, 13, 16, "down" ],
+                [ 3, 0, 13, 16, "up" ],
+                [ 3, 0, 13, 6, "north" ],
+                [ 3, 0, 13, 6, "south" ],
+                [ 0, 0, 16, 6, "west" ],
+                [ 0, 0, 16, 6, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        }
+    ]
+}

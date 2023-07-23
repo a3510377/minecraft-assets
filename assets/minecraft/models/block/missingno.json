@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "missingno",
+    "elements": [
+        {   "type": "cube",
+            "from": [ 4, 4, 4 ],
+            "to": [ 12, 12, 12 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "tint": [ true, true, true, true, true, true ],
+            "cull": [ false, false, false, false, false, false ],
+            "uv": [
+                [ 0, 0, 16, 16, "down" ],
+                [ 0, 0, 16, 16, "up" ],
+                [ 0, 0, 16, 16, "north" ],
+                [ 0, 0, 16, 16, "south" ],
+                [ 0, 0, 16, 16, "west" ],
+                [ 0, 0, 16, 16, "east" ]
+            ]
+        }
+    ]
+}

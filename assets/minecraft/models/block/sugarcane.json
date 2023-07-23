@@ -1,0 +1,44 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "sugarcane",
+    "useAmbientOcclusion": false,
+    "inventoryRender3D": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "south",
+            "tint": true,
+            "rotation": [ 0, 45, 0 ],
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "north",
+            "tint": true,
+            "rotation": [ 0, 45, 0 ],
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "east",
+            "tint": true,
+            "rotation": [ 0, 45, 0 ],
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "facing": "west",
+            "tint": true,
+            "rotation": [ 0, 45, 0 ],
+            "cull": false
+        }
+    ]
+}

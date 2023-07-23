@@ -1,0 +1,119 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "dragonegg",
+    "useAmbientOcclusion": false,
+    "elements": [
+        {   "type": "cube",
+            "from": [ 6, 15, 6 ],
+            "to": [ 10, 16, 10 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 6, 6, 10, 10, "down" ],
+                [ 6, 6, 10, 10, "up" ],
+                [ 6, 15, 10, 16, "north" ],
+                [ 6, 15, 10, 16, "south" ],
+                [ 6, 15, 10, 16, "west" ],
+                [ 6, 15, 10, 16, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 5, 14, 5 ],
+            "to": [ 11, 15, 11 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 5, 5, 11, 11, "down" ],
+                [ 5, 5, 11, 11, "up" ],
+                [ 5, 14, 11, 15, "north" ],
+                [ 5, 14, 11, 15, "south" ],
+                [ 5, 14, 11, 15, "west" ],
+                [ 5, 14, 11, 15, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 5, 13, 5 ],
+            "to": [ 11, 14, 11 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 4, 4, 12, 12, "down" ],
+                [ 4, 4, 12, 12, "up" ],
+                [ 4, 13, 12, 14, "north" ],
+                [ 4, 13, 12, 14, "south" ],
+                [ 4, 13, 12, 14, "west" ],
+                [ 4, 13, 12, 14, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 3, 11, 3 ],
+            "to": [ 13, 13, 13 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 3, 3, 13, 13, "down" ],
+                [ 3, 3, 13, 13, "up" ],
+                [ 3, 11, 13, 13, "north" ],
+                [ 3, 11, 13, 13, "south" ],
+                [ 3, 11, 13, 13, "west" ],
+                [ 3, 11, 13, 13, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 2, 8, 2 ],
+            "to": [ 14, 11, 14 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 2, 2, 14, 14, "down" ],
+                [ 2, 2, 14, 14, "up" ],
+                [ 2, 8, 14, 11, "north" ],
+                [ 2, 8, 14, 11, "south" ],
+                [ 2, 8, 14, 11, "west" ],
+                [ 2, 8, 14, 11, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 1, 3, 1 ],
+            "to": [ 15, 8, 15 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 1, 1, 15, 15, "down" ],
+                [ 1, 1, 15, 15, "up" ],
+                [ 1, 3, 15, 8, "north" ],
+                [ 1, 3, 15, 8, "south" ],
+                [ 1, 3, 15, 8, "west" ],
+                [ 1, 3, 15, 8, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 2, 1, 2 ],
+            "to": [ 14, 3, 14 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 2, 2, 14, 14, "down" ],
+                [ 2, 2, 14, 14, "up" ],
+                [ 2, 1, 14, 3, "north" ],
+                [ 2, 1, 14, 3, "south" ],
+                [ 2, 1, 14, 3, "west" ],
+                [ 2, 1, 14, 3, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        },
+        {   "type": "cube",
+            "from": [ 3, 0, 3 ],
+            "to": [ 13, 1, 13 ],
+            "shade": [ 0.5, 1.0, 0.8, 0.8, 0.6, 0.6 ],
+            "uv": [
+                [ 3, 3, 13, 13, "down" ],
+                [ 3, 3, 13, 13, "up" ],
+                [ 3, 0, 13, 1, "north" ],
+                [ 3, 0, 13, 1, "south" ],
+                [ 3, 0, 13, 1, "west" ],
+                [ 3, 0, 13, 1, "east" ]
+            ],
+            "cull": [ false, false, false, false, false, false ]
+        }
+    ]
+}

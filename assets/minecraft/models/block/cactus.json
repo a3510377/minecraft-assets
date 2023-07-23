@@ -1,0 +1,55 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "name": "cactus",
+    "useAmbientOcclusion": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 0, 16 ],
+            "uv": [ 0, 0, 16, 16, "down" ],
+            "shade": 0.5,
+            "facing": "down",
+            "cull": true
+        },
+        {   "type": "plane",
+            "from": [ 0, 16, 0 ],
+            "to": [ 16, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "up" ],
+            "shade": 1.0,
+            "facing": "up",
+            "cull": true
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 1 ],
+            "to": [ 16, 16, 1 ],
+            "uv": [ 0, 0, 16, 16, "north" ],
+            "shade": 0.8,
+            "facing": "north",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 15 ],
+            "to": [ 16, 16, 15 ],
+            "uv": [ 0, 0, 16, 16, "south" ],
+            "shade": 0.8,
+            "facing": "south",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 1, 0, 0 ],
+            "to": [ 1, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "west" ],
+            "shade": 0.6,
+            "facing": "west",
+            "cull": false
+        },
+        {   "type": "plane",
+            "from": [ 15, 0, 0 ],
+            "to": [ 15, 16, 16 ],
+            "uv": [ 0, 0, 16, 16, "east" ],
+            "shade": 0.6,
+            "facing": "east",
+            "cull": false
+        }
+    ]
+}
