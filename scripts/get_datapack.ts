@@ -47,7 +47,7 @@ export async function getVersions() {
   }>(VersionManifestURL);
 
   manifest.versions.forEach((data) => {
-    result[data.id.replace(' ', '-')] = {
+    result[data.id.replace(/ /g, '-')] = {
       ...data,
       packageData: async () => (await axios.get(data.url)).data,
     };
