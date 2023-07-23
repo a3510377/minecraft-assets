@@ -1,0 +1,6 @@
+{
+    "parent": "builtin/clock",
+    "textures": {
+        "layer0": "items/clock"
+    }
+}

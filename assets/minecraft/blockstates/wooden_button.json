@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "facing=down,powered=false":  { "model": "wooden_button" },
+        "facing=up,powered=false":    { "model": "wooden_button", "x": 180 },
+        "facing=east,powered=false":  { "model": "wooden_button", "x": 90, "y": 90 },
+        "facing=west,powered=false":  { "model": "wooden_button", "x": 90, "y": 270 },
+        "facing=south,powered=false": { "model": "wooden_button", "x": 90, "y": 180 },
+        "facing=north,powered=false": { "model": "wooden_button", "x": 90 },
+        "facing=down,powered=true":   { "model": "wooden_button_pressed" },
+        "facing=up,powered=true":     { "model": "wooden_button_pressed", "x": 180 },
+        "facing=east,powered=true":   { "model": "wooden_button_pressed", "x": 90, "y": 90 },
+        "facing=west,powered=true":   { "model": "wooden_button_pressed", "x": 90, "y": 270 },
+        "facing=south,powered=true":  { "model": "wooden_button_pressed", "x": 90, "y": 180 },
+        "facing=north,powered=true":  { "model": "wooden_button_pressed", "x": 90 }
+    }
+}

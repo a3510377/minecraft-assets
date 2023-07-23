@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "facing=north": { "model": "furnace" },
+        "facing=south": { "model": "furnace", "y": 180 },
+        "facing=west":  { "model": "furnace", "y": 270 },
+        "facing=east":  { "model": "furnace", "y": 90 }
+    }
+}

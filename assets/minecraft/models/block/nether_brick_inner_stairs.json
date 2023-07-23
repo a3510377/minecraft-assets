@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "blocks/nether_brick",
+        "top": "blocks/nether_brick",
+        "side": "blocks/nether_brick"
+    }
+}

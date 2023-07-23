@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "blocks/planks_big_oak",
+        "top": "blocks/planks_big_oak",
+        "side": "blocks/planks_big_oak"
+    }
+}
