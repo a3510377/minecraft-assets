@@ -1,0 +1,11 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "normal": [
+            { "model": "bedrock" },
+            { "model": "bedrock_mirrored" },
+            { "model": "bedrock", "y": 180 },
+            { "model": "bedrock_mirrored", "y": 180 }
+        ]
+    }
+}

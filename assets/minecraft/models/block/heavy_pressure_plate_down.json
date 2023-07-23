@@ -1,0 +1,7 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/pressure_plate_down",
+    "textures": {
+        "texture": "blocks/iron_block"
+    }
+}

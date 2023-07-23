@@ -1,0 +1,7 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "half=bottom": { "model": "half_slab_oak" },
+        "half=top": { "model": "upper_slab_oak" }
+    }
+}

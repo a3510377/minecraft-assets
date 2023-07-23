@@ -1,0 +1,11 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/grass",
+    "textures": {
+        "particle": "blocks/dirt",
+        "bottom": "blocks/dirt",
+        "top": "blocks/grass_top",
+        "side": "blocks/grass_side",
+        "overlay": "blocks/grass_side_overlay"
+    }
+}

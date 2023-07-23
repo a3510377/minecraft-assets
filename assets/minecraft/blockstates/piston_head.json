@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "facing=down,type=normal": { "model": "piston_head_normal", "x": 90 },
+        "facing=up,type=normal": { "model": "piston_head_normal", "x": 270 },
+        "facing=north,type=normal": { "model": "piston_head_normal" },
+        "facing=south,type=normal": { "model": "piston_head_normal", "y": 180 },
+        "facing=west,type=normal": { "model": "piston_head_normal", "y": 270 },
+        "facing=east,type=normal": { "model": "piston_head_normal", "y": 90 },
+        "facing=down,type=sticky": { "model": "piston_head_sticky", "x": 90 },
+        "facing=up,type=sticky": { "model": "piston_head_sticky", "x": 270 },
+        "facing=north,type=sticky": { "model": "piston_head_sticky" },
+        "facing=south,type=sticky": { "model": "piston_head_sticky", "y": 180 },
+        "facing=west,type=sticky": { "model": "piston_head_sticky", "y": 270 },
+        "facing=east,type=sticky": { "model": "piston_head_sticky", "y": 90 }
+    }
+}
