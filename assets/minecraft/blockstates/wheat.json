@@ -1,0 +1,13 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "growth_stage0": { "model": "wheat_stage0" },
+        "growth_stage1": { "model": "wheat_stage1" },
+        "growth_stage2": { "model": "wheat_stage2" },
+        "growth_stage3": { "model": "wheat_stage3" },
+        "growth_stage4": { "model": "wheat_stage4" },
+        "growth_stage5": { "model": "wheat_stage5" },
+        "growth_stage6": { "model": "wheat_stage6" },
+        "grown":         { "model": "wheat_stage7" }
+    }
+}

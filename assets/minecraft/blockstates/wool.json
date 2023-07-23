@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "black":      { "model": "black_wool" },
+        "red":        { "model": "red_wool" },
+        "green":      { "model": "green_wool" },
+        "brown":      { "model": "brown_wool" },
+        "blue":       { "model": "blue_wool" },
+        "purple":     { "model": "purple_wool" },
+        "cyan":       { "model": "cyan_wool" },
+        "silver":     { "model": "silver_wool" },
+        "gray":       { "model": "gray_wool" },
+        "pink":       { "model": "pink_wool" },
+        "lime":       { "model": "lime_wool" },
+        "yellow":     { "model": "yellow_wool" },
+        "light_blue": { "model": "light_wool_blue" },
+        "magenta":    { "model": "magenta_wool" },
+        "orange":     { "model": "orange_wool" },
+        "white":      { "model": "white_wool" }
+    }
+}

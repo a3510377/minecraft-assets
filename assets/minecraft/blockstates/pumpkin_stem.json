@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "growth0":     { "model": "pumpkin_stem_growth0" },
+        "growth1":     { "model": "pumpkin_stem_growth1" },
+        "growth2":     { "model": "pumpkin_stem_growth2" },
+        "growth3":     { "model": "pumpkin_stem_growth3" },
+        "growth4":     { "model": "pumpkin_stem_growth4" },
+        "growth5":     { "model": "pumpkin_stem_growth5" },
+        "growth6":     { "model": "pumpkin_stem_growth6" },
+        "growth7":     { "model": "pumpkin_stem_growth7" },
+        "fruit_west":  { "model": "pumpkin_stem_fruit" },
+        "fruit_east":  { "model": "pumpkin_stem_fruit", "y": 180 },
+        "fruit_north": { "model": "pumpkin_stem_fruit", "y": 90 },
+        "fruit_south": { "model": "pumpkin_stem_fruit", "y": 270 }
+    }
+}

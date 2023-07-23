@@ -1,0 +1,13 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "moisture0": { "model": "farmland_dry" },
+        "moisture1": { "model": "farmland_dry" },
+        "moisture2": { "model": "farmland_dry" },
+        "moisture3": { "model": "farmland_dry" },
+        "moisture4": { "model": "farmland_dry" },
+        "moisture5": { "model": "farmland_dry" },
+        "moisture6": { "model": "farmland_dry" },
+        "moisture7": { "model": "farmland_moist" }
+    }
+}

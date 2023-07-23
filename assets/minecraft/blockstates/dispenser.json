@@ -1,0 +1,11 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "down":  { "model": "dispenser_vertical", "x": 180 },
+        "up":    { "model": "dispenser_vertical" },
+        "north": { "model": "dispenser" },
+        "south": { "model": "dispenser", "y": 180 },
+        "west":  { "model": "dispenser", "y": 270 },
+        "east":  { "model": "dispenser", "y": 90 }
+    }
+}
