@@ -1,0 +1,14 @@
+{
+  "directories": [
+    "font",
+    "icons",
+    "lang",
+    "shaders",
+    "sounds",
+    "texts",
+    "textures"
+  ],
+  "files": [
+    "sounds.json"
+  ]
+}
