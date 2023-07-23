@@ -129,7 +129,7 @@ if (require.main == module) {
 
     let start = new Date();
     for (let [version, info] of Object.entries(versions).reverse()) {
-      version = version.replace(/ /, '-').toLowerCase();
+      version = version.replace(' ', '-');
       if (!['release', 'snapshot'].includes(info.type)) continue;
       if (allTags.includes(version)) continue;
       if (new Date().getTime() - start.getTime() > 1e3 * 60 * 2) break;
