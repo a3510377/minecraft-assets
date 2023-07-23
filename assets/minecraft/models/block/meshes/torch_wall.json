@@ -1,0 +1,7 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "inheritFrom": "torch",
+    "translation": [ -8, 4, 0 ],
+    "rotationOrigin": [ 8, 0, 8 ],
+    "rotation": [ 0, 0, -22.5 ]
+}

@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "closed_east":   { "model": "door" },
+        "closed_south":  { "model": "door", "y": 90 },
+        "closed_west":   { "model": "door", "y": 180 },
+        "closed_north":  { "model": "door", "y": 270 },
+        "lh_open_east":  { "model": "door", "y": 90 },
+        "lh_open_south": { "model": "door", "y": 180 },
+        "lh_open_west":  { "model": "door", "y": 270 },
+        "lh_open_north": { "model": "door" },
+        "rh_open_east":  { "model": "door", "y": 270 },
+        "rh_open_south": { "model": "door" },
+        "rh_open_west":  { "model": "door", "y": 90 },
+        "rh_open_north": { "model": "door", "y": 180 }
+    }
+}

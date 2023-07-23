@@ -1,0 +1,70 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "useAmbientOcclusion": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 0, 16 ],
+            "facing": "down",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "down",
+                "shade": 0.5
+            }
+        },
+        {   "type": "plane",
+            "from": [ 0, 16, 0 ],
+            "to": [ 16, 16, 16 ],
+            "facing": "up",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "up",
+                "shade": 1.0
+            }
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 1 ],
+            "to": [ 16, 16, 1 ],
+            "facing": "north",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "north",
+                "shade": 0.8,
+                "cull": false
+            }
+        },
+        {   "type": "plane",
+            "from": [ 0, 0, 15 ],
+            "to": [ 16, 16, 15 ],
+            "facing": "south",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "south",
+                "shade": 0.8,
+                "cull": false
+            }
+        },
+        {   "type": "plane",
+            "from": [ 1, 0, 0 ],
+            "to": [ 1, 16, 16 ],
+            "facing": "west",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "west",
+                "shade": 0.6,
+                "cull": false
+            }
+        },
+        {   "type": "plane",
+            "from": [ 15, 0, 0 ],
+            "to": [ 15, 16, 16 ],
+            "facing": "east",
+            "faceData": {
+                "uv": [ 0, 0, 16, 16 ],
+                "textureFacing": "east",
+                "shade": 0.6,
+                "cull": false
+            }
+        }
+    ]
+}
