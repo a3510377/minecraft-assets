@@ -1,0 +1,20 @@
+{
+  "directories": [
+    "armorstand",
+    "cow",
+    "elytra",
+    "guardian",
+    "horse",
+    "itemframe",
+    "leashknot",
+    "painting",
+    "player",
+    "rabbit",
+    "shulker",
+    "shulker_bullet",
+    "snowman",
+    "squid",
+    "witch"
+  ],
+  "files": []
+}
