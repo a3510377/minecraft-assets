@@ -1,0 +1,13 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "growth_stage0": { "model": "carrots_stage0" },
+        "growth_stage1": { "model": "carrots_stage0" },
+        "growth_stage2": { "model": "carrots_stage1" },
+        "growth_stage3": { "model": "carrots_stage1" },
+        "growth_stage4": { "model": "carrots_stage2" },
+        "growth_stage5": { "model": "carrots_stage2" },
+        "growth_stage6": { "model": "carrots_stage2" },
+        "grown":         { "model": "carrots_stage3" }
+    }
+}
