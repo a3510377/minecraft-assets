@@ -21,8 +21,10 @@ jobs:
 
       - name: Deploy
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          # git config --global user.name "GitHub Action"
+          # git config --global user.email "action@github.com"
+          # git config --global user.name "a3510377"
+          # git config --global user.email "a102009102009@gmail.com"
 
           for dir in output/*/; do
             echo "Entering: $dir"
