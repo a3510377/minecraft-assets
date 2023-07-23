@@ -1,0 +1,18 @@
+{
+  "directories": [
+    "blocks",
+    "colormap",
+    "effect",
+    "entity",
+    "environment",
+    "font",
+    "gui",
+    "items",
+    "map",
+    "misc",
+    "models",
+    "painting",
+    "particle"
+  ],
+  "files": []
+}
