@@ -17,7 +17,8 @@ jobs:
         run: yarn
 
       - name: Restore cached Assets
-        uses: actions/cache/restore@v3
+        # uses: actions/cache/restore@v3
+        uses: actions/cache@v3
         with:
           path: assets
           key: assets-cache
@@ -25,11 +26,11 @@ jobs:
       - name: Tick
         run: yarn run github_action_tick
 
-      - name: Save Assets
-        uses: actions/cache/save@v3
-        with:
-          path: assets
-          key: assets-cache
+      # - name: Save Assets
+      #   uses: actions/cache/save@v3
+      #   with:
+      #     path: assets
+      #     key: assets-cache
 
       - name: Deploy
         run: |
