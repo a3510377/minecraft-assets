@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "blocks",
+    "entity_types",
+    "fluids",
+    "items"
+  ],
+  "files": []
+}
