@@ -35,7 +35,6 @@ jobs:
             cd "$dir"
             dir="${dir%/}"
             dir="${dir##*/}"
-            dir="${dir// /-}"
 
             git init
             git add -A
