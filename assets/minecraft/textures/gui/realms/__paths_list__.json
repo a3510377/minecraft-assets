@@ -1,0 +1,18 @@
+{
+  "directories": [],
+  "files": [
+    "cross_icon.png",
+    "expired_icon.png",
+    "invitation_icons.png",
+    "invite_icon.png",
+    "off_icon.png",
+    "on_icon.png",
+    "op_icon.png",
+    "plus_icon.png",
+    "restore_icon.png",
+    "toggle_off_icon.png",
+    "toggle_on_icon.png",
+    "user_icon.png",
+    "world_icon.png"
+  ]
+}
