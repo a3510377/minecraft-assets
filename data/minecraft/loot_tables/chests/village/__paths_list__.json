@@ -1,0 +1,13 @@
+{
+  "directories": [],
+  "files": [
+    "village_cartographer.json",
+    "village_desert_house.json",
+    "village_plains_house.json",
+    "village_savanna_house.json",
+    "village_snowy_house.json",
+    "village_taiga_house.json",
+    "village_tannery.json",
+    "village_weaponsmith.json"
+  ]
+}
