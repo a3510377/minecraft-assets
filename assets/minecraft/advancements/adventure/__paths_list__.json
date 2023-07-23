@@ -1,0 +1,16 @@
+{
+  "directories": [],
+  "files": [
+    "adventuring_time.json",
+    "bred_all_animals.json",
+    "breed_an_animal.json",
+    "kill_a_mob.json",
+    "kill_all_mobs.json",
+    "root.json",
+    "shoot_arrow.json",
+    "sleep_in_bed.json",
+    "sniper_duel.json",
+    "tame_an_animal.json",
+    "trade.json"
+  ]
+}

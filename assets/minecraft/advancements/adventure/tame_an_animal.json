@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "title": {
+            "translate": "advancements.adventure.tame_an_animal.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.tame_an_animal.description"
+        }
+    },
+    "parent": "adventure/sleep_in_bed",
+    "criteria": {
+        "tamed_animal": {
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}
