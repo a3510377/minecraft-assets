@@ -1,0 +1,36 @@
+{
+  "type": "crafting_shaped",
+  "group": "bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "X": [
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "minecraft:spruce_planks"
+      },
+      {
+        "item": "minecraft:birch_planks"
+      },
+      {
+        "item": "minecraft:jungle_planks"
+      },
+      {
+        "item": "minecraft:acacia_planks"
+      },
+      {
+        "item": "minecraft:dark_oak_planks"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:light_gray_bed"
+  }
+}
