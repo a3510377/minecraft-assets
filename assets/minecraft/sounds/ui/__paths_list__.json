@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "cartography_table",
+    "loom",
+    "stonecutter",
+    "toast"
+  ],
+  "files": [
+    "bim_bom.ogg"
+  ]
+}

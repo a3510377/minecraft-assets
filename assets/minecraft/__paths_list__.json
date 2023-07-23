@@ -1,0 +1,19 @@
+{
+  "directories": [
+    "blockstates",
+    "font",
+    "icons",
+    "lang",
+    "models",
+    "particles",
+    "resourcepacks",
+    "shaders",
+    "sounds",
+    "texts",
+    "textures"
+  ],
+  "files": [
+    "sound.sys",
+    "sounds.json"
+  ]
+}

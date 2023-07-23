@@ -1,0 +1,14 @@
+{
+  "directories": [
+    "assets",
+    "data"
+  ],
+  "files": [
+    "3D Shareware v1.34.json",
+    "3D Shareware v1.34.min.json",
+    "assets_index.json",
+    "assets_index.min.json",
+    "version.json",
+    "version.min.json"
+  ]
+}
