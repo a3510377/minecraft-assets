@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "icons",
+    "lang",
+    "minecraft",
+    "sounds"
+  ],
+  "files": [
+    "pack.mcmeta",
+    "sounds.json"
+  ]
+}
