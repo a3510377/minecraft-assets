@@ -1,0 +1,13 @@
+{
+  "directories": [],
+  "files": [
+    "buttons.json",
+    "carpets.json",
+    "doors.json",
+    "logs.json",
+    "planks.json",
+    "saplings.json",
+    "stone_bricks.json",
+    "wool.json"
+  ]
+}
