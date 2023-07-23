@@ -16,12 +16,6 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Restore cached Assets
-        uses: actions/cache@v3
-        with:
-          path: assets
-          key: assets-cache-${{ hashFiles('**') }}
-
       - name: Tick
         run: yarn run github_action_tick
 
