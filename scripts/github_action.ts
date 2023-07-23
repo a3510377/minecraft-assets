@@ -123,28 +123,28 @@ const getAssetsFromVersion = async (
 
 if (require.main == module) {
   (async () => {
-    // const versions = await getVersions();
-    // const allTags = (await simpleGit().tags()).all;
-    // console.log(allTags);
+    const versions = await getVersions();
+    const allTags = (await simpleGit().tags()).all;
+    console.log(allTags);
 
-    // let start = new Date();
-    // for (const [version, info] of Object.entries(versions).reverse()) {
-    //   if (!['release', 'snapshot'].includes(info.type)) continue;
-    //   if (allTags.includes(version)) continue;
-    //   if (new Date().getTime() - start.getTime() > 1e3 * 60 * 2) break;
+    let start = new Date();
+    for (const [version, info] of Object.entries(versions).reverse()) {
+      if (!['release', 'snapshot'].includes(info.type)) continue;
+      if (allTags.includes(version)) continue;
+      if (new Date().getTime() - start.getTime() > 1e3 * 60 * 2) break;
 
-    //   console.log('------------------------');
-    //   console.log(`Generating version: ${version}`);
-    //   console.log('------------------------');
-    //   console.time(`Version generated: ${version}`);
+      console.log('------------------------');
+      console.log(`Generating version: ${version}`);
+      console.log('------------------------');
+      console.time(`Version generated: ${version}`);
 
-    //   const output = path.join(OUTPUT_PATH, version);
-    //   existsSync(output) && rmSync(output, { recursive: true });
-    //   existsSync(TMP_PATH) && rmSync(TMP_PATH, { recursive: true });
+      const output = path.join(OUTPUT_PATH, version);
+      existsSync(output) && rmSync(output, { recursive: true });
+      existsSync(TMP_PATH) && rmSync(TMP_PATH, { recursive: true });
 
-    //   await getAssetsFromVersion(output, versions[version]);
-    //   console.timeEnd(`Version generated: ${version}`);
-    // }
+      await getAssetsFromVersion(output, versions[version]);
+      console.timeEnd(`Version generated: ${version}`);
+    }
 
     readdirSync(OUTPUT_PATH).forEach((version) => {
       const deepScanning = (basePath: string) => {
