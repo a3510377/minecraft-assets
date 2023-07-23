@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "blocks/planks_birch",
+        "top": "blocks/planks_birch",
+        "side": "blocks/planks_birch"
+    }
+}

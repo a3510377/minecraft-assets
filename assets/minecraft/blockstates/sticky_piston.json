@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "down":  { "model": "sticky_piston", "x": 90 },
+        "up":    { "model": "sticky_piston", "x": 270 },
+        "north": { "model": "sticky_piston" },
+        "south": { "model": "sticky_piston", "y": 180 },
+        "west":  { "model": "sticky_piston", "y": 270 },
+        "east":  { "model": "sticky_piston", "y": 90 },
+        "extended_down":  { "model": "piston_extended_normal", "x": 90 },
+        "extended_up":    { "model": "piston_extended_normal", "x": 270 },
+        "extended_north": { "model": "piston_extended_normal" },
+        "extended_south": { "model": "piston_extended_normal", "y": 180 },
+        "extended_west":  { "model": "piston_extended_normal", "y": 270 },
+        "extended_east":  { "model": "piston_extended_normal", "y": 90 }
+    }
+}

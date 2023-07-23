@@ -1,0 +1,9 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/upper_slab",
+    "textures": {
+        "bottom": "blocks/planks_acacia",
+        "top": "blocks/planks_acacia",
+        "side": "blocks/planks_acacia"
+    }
+}

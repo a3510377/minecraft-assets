@@ -1,0 +1,8 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "parent": "block/stem_fruit",
+    "textures": {
+        "stem": "blocks/pumpkin_stem_disconnected",
+        "upperstem": "blocks/pumpkin_stem_connected"
+    }
+}

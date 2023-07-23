@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "none": { "model": "wooden_fence_post" },
+        "n":    { "model": "wooden_fence_n", "uvlock": true },
+        "e":    { "model": "wooden_fence_n", "y": 90, "uvlock": true },
+        "s":    { "model": "wooden_fence_n", "y": 180, "uvlock": true },
+        "w":    { "model": "wooden_fence_n", "y": 270, "uvlock": true },
+        "ne":   { "model": "wooden_fence_ne", "uvlock": true },
+        "es":   { "model": "wooden_fence_ne", "y": 90, "uvlock": true },
+        "sw":   { "model": "wooden_fence_ne", "y": 180, "uvlock": true },
+        "nw":   { "model": "wooden_fence_ne", "y": 270, "uvlock": true },
+        "ns":   { "model": "wooden_fence_ns", "uvlock": true },
+        "ew":   { "model": "wooden_fence_ns", "y": 90, "uvlock": true },
+        "nse":  { "model": "wooden_fence_nse", "uvlock": true },
+        "sew":  { "model": "wooden_fence_nse", "y": 90, "uvlock": true },
+        "swn":  { "model": "wooden_fence_nse", "y": 180, "uvlock": true },
+        "new":  { "model": "wooden_fence_nse", "y": 270, "uvlock": true },
+        "nsew": { "model": "wooden_fence_nsew", "uvlock": true }
+    }
+}
