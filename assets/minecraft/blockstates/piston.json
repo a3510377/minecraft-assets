@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "down":  { "model": "piston_normal", "x": 90 },
+        "up":    { "model": "piston_normal", "x": 270 },
+        "north": { "model": "piston_normal" },
+        "south": { "model": "piston_normal", "y": 180 },
+        "west":  { "model": "piston_normal", "y": 270 },
+        "east":  { "model": "piston_normal", "y": 90 },
+        "extended_down":  { "model": "piston_extended_normal", "x": 90 },
+        "extended_up":    { "model": "piston_extended_normal", "x": 270 },
+        "extended_north": { "model": "piston_extended_normal" },
+        "extended_south": { "model": "piston_extended_normal", "y": 180 },
+        "extended_west":  { "model": "piston_extended_normal", "y": 270 },
+        "extended_east":  { "model": "piston_extended_normal", "y": 90 }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "nw":       { "model": "brown_mushroom_block_nw" },
+        "n":        { "model": "brown_mushroom_block_n" },
+        "ne":       { "model": "brown_mushroom_block_ne" },
+        "w":        { "model": "brown_mushroom_block_w" },
+        "c":        { "model": "brown_mushroom_block_c" },
+        "e":        { "model": "brown_mushroom_block_e" },
+        "sw":       { "model": "brown_mushroom_block_sw" },
+        "s":        { "model": "brown_mushroom_block_s" },
+        "se":       { "model": "brown_mushroom_block_se" },
+        "stem":     { "model": "brown_mushroom_block_stem" },
+        "cap_all":  { "model": "brown_mushroom_block_cap_all" },
+        "stem_all": { "model": "brown_mushroom_block_stem_all" }
+    }
+}

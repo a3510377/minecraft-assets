@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "none": { "model": "yellow_pane_nsew" },
+        "n": { "model": "yellow_pane_n" },
+        "e": { "model": "yellow_pane_n", "y": 90 },
+        "s": { "model": "yellow_pane_n", "y": 180 },
+        "w": { "model": "yellow_pane_n", "y": 270 },
+        "ne": { "model": "yellow_pane_ne" },
+        "es": { "model": "yellow_pane_ne", "y": 90 },
+        "sw": { "model": "yellow_pane_ne", "y": 180 },
+        "nw": { "model": "yellow_pane_ne", "y": 270 },
+        "ns": { "model": "yellow_pane_ns" },
+        "ew": { "model": "yellow_pane_ns", "y": 90 },
+        "nse": { "model": "yellow_pane_nse" },
+        "sew": { "model": "yellow_pane_nse", "y": 90 },
+        "swn": { "model": "yellow_pane_nse", "y": 180 },
+        "new": { "model": "yellow_pane_nse", "y": 270 },
+        "nsew": { "model": "yellow_pane_nsew" }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "variants": {
+        "none": { "model": "nether_brick_fence_post" },
+        "n":    { "model": "nether_brick_fence_n" },
+        "e":    { "model": "nether_brick_fence_n", "y": 90, "uvlock": true },
+        "s":    { "model": "nether_brick_fence_n", "y": 180, "uvlock": true },
+        "w":    { "model": "nether_brick_fence_n", "y": 270, "uvlock": true },
+        "ne":   { "model": "nether_brick_fence_ne" },
+        "es":   { "model": "nether_brick_fence_ne", "y": 90, "uvlock": true },
+        "sw":   { "model": "nether_brick_fence_ne", "y": 180, "uvlock": true },
+        "nw":   { "model": "nether_brick_fence_ne", "y": 270, "uvlock": true },
+        "ns":   { "model": "nether_brick_fence_ns" },
+        "ew":   { "model": "nether_brick_fence_ns", "y": 90, "uvlock": true },
+        "nse":  { "model": "nether_brick_fence_nse" },
+        "sew":  { "model": "nether_brick_fence_nse", "y": 90, "uvlock": true },
+        "swn":  { "model": "nether_brick_fence_nse", "y": 180, "uvlock": true },
+        "new":  { "model": "nether_brick_fence_nse", "y": 270, "uvlock": true },
+        "nsew": { "model": "nether_brick_fence_nsew" }
+    }
+}
