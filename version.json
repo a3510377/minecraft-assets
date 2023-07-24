@@ -1,0 +1,9 @@
+{
+  "id": "1.18.1-rc3",
+  "type": "snapshot",
+  "url": "https://piston-meta.mojang.com/v1/packages/027ff0f43a3589b3ea16771ec11d052fc0fdf45e/1.18.1-rc3.json",
+  "time": "2023-06-07T10:50:17+00:00",
+  "releaseTime": "2021-12-10T03:36:38+00:00",
+  "sha1": "027ff0f43a3589b3ea16771ec11d052fc0fdf45e",
+  "complianceLevel": 1
+}
