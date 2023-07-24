@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "common",
+    "decays",
+    "desert",
+    "plains",
+    "savanna",
+    "snowy",
+    "taiga"
+  ],
+  "files": []
+}
