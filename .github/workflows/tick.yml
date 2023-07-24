@@ -20,6 +20,7 @@ jobs:
         uses: actions/cache/restore@v3
         with:
           path: assets
+          key: assets-cache
           restore-keys: assets-cache-
 
       - name: Tick
