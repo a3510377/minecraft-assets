@@ -166,9 +166,11 @@ if (require.main == module) {
       writeJSONMinify(path.join(basePath, '__paths_list__'), fileMap);
     };
 
-    readdirSync(OUTPUT_PATH).forEach((version) => {
-      deepScanning(path.join(OUTPUT_PATH, version));
-    });
+    if (existsSync(OUTPUT_PATH)) {
+      readdirSync(OUTPUT_PATH).forEach((version) => {
+        deepScanning(path.join(OUTPUT_PATH, version));
+      });
+    }
 
     deepScanning(CACHE_PATH);
   })();
