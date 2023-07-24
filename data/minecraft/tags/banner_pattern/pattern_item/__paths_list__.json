@@ -1,0 +1,11 @@
+{
+  "directories": [],
+  "files": [
+    "creeper.json",
+    "flower.json",
+    "globe.json",
+    "mojang.json",
+    "piglin.json",
+    "skull.json"
+  ]
+}
