@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "lang",
+    "sounds"
+  ],
+  "files": [
+    "sounds.json"
+  ]
+}
