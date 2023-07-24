@@ -1,0 +1,9 @@
+{
+  "id": "1.18-rc2",
+  "type": "snapshot",
+  "url": "https://piston-meta.mojang.com/v1/packages/1cd29ca38d308f1375529c2c52c7819a21bb6410/1.18-rc2.json",
+  "time": "2023-06-07T10:50:17+00:00",
+  "releaseTime": "2021-11-26T10:02:04+00:00",
+  "sha1": "1cd29ca38d308f1375529c2c52c7819a21bb6410",
+  "complianceLevel": 1
+}
