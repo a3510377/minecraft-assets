@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "buildings",
+    "tower"
+  ],
+  "files": [
+    "buildings.json",
+    "decor.json",
+    "roads.json",
+    "tower.json"
+  ]
+}

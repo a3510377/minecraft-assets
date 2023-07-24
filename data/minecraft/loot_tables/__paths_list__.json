@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "archaeology",
+    "blocks",
+    "chests",
+    "entities",
+    "gameplay"
+  ],
+  "files": []
+}
