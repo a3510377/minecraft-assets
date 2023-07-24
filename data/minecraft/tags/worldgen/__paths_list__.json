@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "biome",
+    "flat_level_generator_preset",
+    "structure",
+    "world_preset"
+  ],
+  "files": []
+}
