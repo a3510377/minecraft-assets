@@ -1,0 +1,17 @@
+{
+  "directories": [
+    "bases",
+    "brains",
+    "connectors",
+    "corners",
+    "entrances",
+    "extensions",
+    "ramparts",
+    "roofs",
+    "stairs",
+    "walls"
+  ],
+  "files": [
+    "big_air_full.nbt"
+  ]
+}
