@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "building_blocks",
+    "decorations",
+    "redstone",
+    "transportation"
+  ],
+  "files": []
+}
