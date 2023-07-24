@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "profession",
+    "profession_level",
+    "type"
+  ],
+  "files": [
+    "zombie_villager.png"
+  ]
+}
