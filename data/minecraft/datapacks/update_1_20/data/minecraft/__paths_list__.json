@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "advancements",
+    "loot_tables",
+    "recipes",
+    "tags",
+    "trim_material",
+    "trim_pattern"
+  ],
+  "files": []
+}
