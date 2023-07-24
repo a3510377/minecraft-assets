@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "blocks",
+    "chests",
+    "entities",
+    "gameplay"
+  ],
+  "files": []
+}
