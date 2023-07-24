@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "blocks",
+    "entity_types",
+    "fluids",
+    "game_events",
+    "items"
+  ],
+  "files": []
+}
