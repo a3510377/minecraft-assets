@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "bridge_pieces",
+    "connectors",
+    "legs",
+    "rampart_plates",
+    "ramparts",
+    "starting_pieces",
+    "walls"
+  ],
+  "files": []
+}
