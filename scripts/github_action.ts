@@ -136,38 +136,40 @@ if (require.main == module) {
       console.log('------------------------');
       console.log(`Generating version: ${version}`);
       console.log('------------------------');
-      console.time(`Version generated: ${version}`);
+      console.time(`Version generated - ${version}`);
 
       const output = path.join(OUTPUT_PATH, version);
       existsSync(output) && rmSync(output, { recursive: true });
       existsSync(TMP_PATH) && rmSync(TMP_PATH, { recursive: true });
 
       await getAssetsFromVersion(output, versions[version]);
-      console.timeEnd(`Version generated: ${version}`);
+      console.timeEnd(`Version generated - ${version}`);
     }
 
-    readdirSync(OUTPUT_PATH).forEach((version) => {
-      const deepScanning = (basePath: string) => {
-        const fileMap: { directories: string[]; files: string[] } = {
-          directories: [],
-          files: [],
-        };
-
-        readdirSync(basePath).forEach((name) => {
-          const filePath = path.join(basePath, name);
-          const stat = statSync(filePath);
-
-          if (stat.isFile()) fileMap.files.push(name);
-          else if (stat.isDirectory()) {
-            fileMap.directories.push(name);
-            deepScanning(filePath);
-          }
-        });
-
-        writeJSONMinify(path.join(basePath, '__paths_list__'), fileMap);
+    const deepScanning = (basePath: string) => {
+      const fileMap: { directories: string[]; files: string[] } = {
+        directories: [],
+        files: [],
       };
 
+      readdirSync(basePath).forEach((name) => {
+        const filePath = path.join(basePath, name);
+        const stat = statSync(filePath);
+
+        if (stat.isFile()) fileMap.files.push(name);
+        else if (stat.isDirectory()) {
+          fileMap.directories.push(name);
+          deepScanning(filePath);
+        }
+      });
+
+      writeJSONMinify(path.join(basePath, '__paths_list__'), fileMap);
+    };
+
+    readdirSync(OUTPUT_PATH).forEach((version) => {
       deepScanning(path.join(OUTPUT_PATH, version));
     });
+
+    deepScanning(CACHE_PATH);
   })();
 }

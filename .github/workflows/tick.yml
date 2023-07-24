@@ -16,8 +16,20 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
+      - name: Restore cached assets
+        uses: actions/cache/restore@v3
+        with:
+          path: assets
+          restore-keys: assets-cache-
+
       - name: Tick
         run: yarn run github_action_tick
+
+      - name: Save assets
+        uses: actions/cache/save@v3
+        with:
+          path: assets
+          key: assets-cache-${{ hashFiles('**/__paths_list__.min.json') }}
 
       - name: Deploy
         run: |
