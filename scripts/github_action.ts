@@ -128,10 +128,16 @@ if (require.main == module) {
     console.log(allTags);
 
     let start = new Date();
+    let count = 0;
     for (const [version, info] of Object.entries(versions).reverse()) {
       if (!['release', 'snapshot'].includes(info.type)) continue;
       if (allTags.includes(version)) continue;
-      if (new Date().getTime() - start.getTime() > 1e3 * 60 * 2) break;
+      if (
+        new Date().getTime() - start.getTime() > 1e3 * 60 * 2 ||
+        count++ > 8
+      ) {
+        break;
+      }
 
       console.log('------------------------');
       console.log(`Generating version: ${version}`);
