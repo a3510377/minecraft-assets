@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "bottom",
+    "mid",
+    "outer",
+    "top"
+  ],
+  "files": [
+    "entrance_wall.nbt",
+    "lava_wall.nbt"
+  ]
+}
