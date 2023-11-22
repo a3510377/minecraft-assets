@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "processor_list",
+    "structure",
+    "structure_set",
+    "template_pool"
+  ],
+  "files": []
+}
