@@ -1,0 +1,8 @@
+{
+  "directories": [
+    "connectors"
+  ],
+  "files": [
+    "default.nbt"
+  ]
+}
