@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "blocks",
+    "damage_type",
+    "entity_types",
+    "items",
+    "worldgen"
+  ],
+  "files": []
+}
