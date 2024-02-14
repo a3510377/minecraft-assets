@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "blocks",
+    "chests",
+    "dispensers",
+    "entities",
+    "pots",
+    "spawners"
+  ],
+  "files": []
+}
