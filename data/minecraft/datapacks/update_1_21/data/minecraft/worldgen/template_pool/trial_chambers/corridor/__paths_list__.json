@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "first"
+  ],
+  "files": [
+    "first.json",
+    "second.json"
+  ]
+}

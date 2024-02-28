@@ -1,0 +1,11 @@
+{
+  "directories": [],
+  "files": [
+    "corridor.json",
+    "entrance.json",
+    "intersection.json",
+    "intersection_barrel.json",
+    "reward.json",
+    "supply.json"
+  ]
+}
