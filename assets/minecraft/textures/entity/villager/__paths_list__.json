@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "profession",
+    "profession_level",
+    "type"
+  ],
+  "files": [
+    "villager.png",
+    "villager_potato.png"
+  ]
+}

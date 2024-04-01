@@ -1,0 +1,9 @@
+{
+  "directories": [
+    "mobs",
+    "treasure"
+  ],
+  "files": [
+    "starts.json"
+  ]
+}

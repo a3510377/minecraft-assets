@@ -1,0 +1,13 @@
+{
+  "directories": [
+    "ancient_city",
+    "bastion",
+    "colosseum",
+    "pillager_outpost",
+    "trail_ruins",
+    "village"
+  ],
+  "files": [
+    "empty.json"
+  ]
+}

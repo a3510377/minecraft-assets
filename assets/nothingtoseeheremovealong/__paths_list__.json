@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "gui",
+    "sounds",
+    "textures"
+  ],
+  "files": [
+    "sounds.json"
+  ]
+}

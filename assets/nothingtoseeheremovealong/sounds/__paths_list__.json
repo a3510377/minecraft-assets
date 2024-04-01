@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "ambient",
+    "block",
+    "entity",
+    "item",
+    "the_joke"
+  ],
+  "files": []
+}
