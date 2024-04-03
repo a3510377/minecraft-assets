@@ -1,0 +1,11 @@
+{
+  "directories": [
+    "breeze",
+    "connectors",
+    "melee",
+    "ranged",
+    "slow_ranged",
+    "small_melee"
+  ],
+  "files": []
+}
