@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "banner_pattern",
+    "blocks",
+    "damage_type",
+    "enchantment",
+    "entity_types",
+    "items",
+    "worldgen"
+  ],
+  "files": []
+}
