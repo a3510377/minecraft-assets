@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "mooshroom",
+    "sheep"
+  ],
+  "files": [
+    "bogged.json",
+    "snow_golem.json"
+  ]
+}
