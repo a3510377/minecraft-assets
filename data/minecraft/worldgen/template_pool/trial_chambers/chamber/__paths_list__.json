@@ -1,0 +1,12 @@
+{
+  "directories": [],
+  "files": [
+    "addon.json",
+    "assembly.json",
+    "end.json",
+    "entrance_cap.json",
+    "eruption.json",
+    "pedestal.json",
+    "slanted.json"
+  ]
+}
