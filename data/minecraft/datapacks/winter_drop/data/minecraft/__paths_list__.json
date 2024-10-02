@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "advancement",
+    "loot_table",
+    "recipe",
+    "tags",
+    "worldgen"
+  ],
+  "files": []
+}
