@@ -1,0 +1,16 @@
+{
+  "directories": [
+    "archaeology",
+    "blocks",
+    "chests",
+    "dispensers",
+    "entities",
+    "equipment",
+    "gameplay",
+    "mines",
+    "pots",
+    "shearing",
+    "spawners"
+  ],
+  "files": []
+}
