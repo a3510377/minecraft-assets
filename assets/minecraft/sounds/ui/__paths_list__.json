@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "cartography_table",
+    "hud",
+    "loom",
+    "stonecutter",
+    "toast"
+  ],
+  "files": []
+}

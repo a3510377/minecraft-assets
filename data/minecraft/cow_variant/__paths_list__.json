@@ -1,0 +1,8 @@
+{
+  "directories": [],
+  "files": [
+    "cold.json",
+    "temperate.json",
+    "warm.json"
+  ]
+}
